@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 170 88.11">
+    <defs>
+        <linearGradient id="foreground"><stop stop-color="#FFFFFF"/></linearGradient>
+        <path id="dot" d="M0,43a4.8,4.8,0,1,1,4.8,4.8A4.8,4.8,0,0,1,0,43Z"/>
+        <path id="circle" d="M51.21,44.06A44.06,44.06,0,1,1,95.26,88.11,44.06,44.06,0,0,1,51.21,44.06Z"/>
+        <g id="text">
+            <path id="m" d="M65.19,61.42V29.86a4.46,4.46,0,0,0-4.55-4.55H24.54a4.45,4.45,0,0,0-4.48,4.55V61.42h9V34.14h9V61.42h9V34.14h9V61.42Z"/>
+            <path id="c" d="M117.63,56.94V47.71l-9,1.09v3.8H81.53V34.14H108.6v3.8l9,1.09V29.86a4.46,4.46,0,0,0-4.55-4.55H77a4.45,4.45,0,0,0-4.48,4.55V56.94A4.43,4.43,0,0,0,77,61.42h36.1a4.45,4.45,0,0,0,4.55-4.48Z"/>
+            <path id="s" d="M170,56.94V43.64a4.51,4.51,0,0,0-4.55-4.55H133.9V33.46h33.23s2.66-8.14.09-8.14H129.35a4.45,4.45,0,0,0-4.48,4.55V42.76a4.43,4.43,0,0,0,4.48,4.48H161v6H133.9V50.56l-9-1.08v7.46a4.43,4.43,0,0,0,4.48,4.48h36.1A4.45,4.45,0,0,0,170,56.94Z"/>
+            <use xlink:href="#dot" transform="translate(90.47,0)"/>
+        </g>
+        <clipPath id="clip">
+            <use xlink:href="#circle"/>
+        </clipPath>
+        <mask id="mask">
+            <rect width="100%" height="100%" fill="white"></rect>
+            <use xlink:href="#text" clip-path="url(#clip)" fill="black"/>
+        </mask>
+    </defs>
+    <g mask="url(#mask)" fill="url(#foreground)">
+        <use xlink:href="#dot"/>
+        <use xlink:href="#text"/>
+        <use xlink:href="#circle"/>
+    </g>
+</svg>

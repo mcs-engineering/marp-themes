@@ -1,0 +1,11 @@
+{
+  "name": "marp-themes",
+  "scripts": {
+    "build": "sass --no-source-map docs",
+    "test": "npm run build && serve docs"
+  },
+  "devDependencies": {
+    "sass": "^1.47.0",
+    "serve": "^13.0.2"
+  }
+}

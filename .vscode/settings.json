@@ -1,0 +1,6 @@
+{
+  "markdown.marp.themes": [
+    "docs/mcs/theme.css",
+    "docs/hamilton/robotics/theme.css"
+  ]
+}
